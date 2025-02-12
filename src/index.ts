@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 // Middleware
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: 'https://my-frontend-9101.onrender.com' }));
 app.use(express.json());
 
 // Routes
